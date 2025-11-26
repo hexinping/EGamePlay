@@ -164,9 +164,9 @@ public class SkillEditorWindow : OdinMenuEditorWindow
         base.DrawMenu();
     }
 
-    protected override void OnImGUI()
+    protected override void OnGUI()
     {
-        base.OnImGUI();
+        base.OnGUI();
     }
 
     private void OnSelectionChange()
